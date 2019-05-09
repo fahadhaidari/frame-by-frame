@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>frameXframe</title>
+  </head>
+  <body>
+    <h2>FRAMExFRAME</h2>
+    <div class="bar">
+      <input type="number" id="delay-input" class="delay-input" placeholder="FPS..."/>
+      <input type="color" id="color" class="color-picker"/>
+      <!-- <div class="info">MODES: </div> -->
+      <button id="add-frame-button" class="green small-button">ADD FRAME</button>
+      <button id="delete-frame-button" class="red small-button">DELETE FRAME</button>
+      <button id="copy-frame-button" class="purple small-button">COPY FRAME</button>
+      <button id="draw-button" class="orange small-button">DRAW</button>
+      <button id="erase-button" class="white small-button gray" >ERASE</button>
+      <button id="export-button" class="white">COPY SCRIPT</button>
+    </div>
+    <div id="container" class="container">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div id="info" class="info">Draw on any frame</div>
+    <canvas id="buffer" class="buffer"></canvas>
+    <button id="play-button" class="blue large-button">PLAY</button>
+    <script src="js/copy-to-clipboard.js"></script>
+    <script src="js/generate-script.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+html, body {
+  font-family: Courier, Helvetica, sans-serif;
+  background: #FFFFFF;
+  /* overflow: hidden; */
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  margin-top: 1px;
+  border: solid 8px #FFFFFF;
+}
+
+.large-button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 20%;
+  height: 40px;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+  font-size: 16px; 
+  border-radius: 5px;
+}
+
+.small-button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+button:active {
+  color: #AAAAAA;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  margin: 5px;
+}
+
+.color-picker {
+  display: inline;
+  width: 40px;
+  height: 20px;
+}
+
+.delay-input {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.size-input {
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  overflow-x: auto;
+  width: 92%;
+  background: #FFFFFF;
+  border: solid 4px #EEEEEE;
+  padding: 20px;
+}
+
+.bar {
+  display: block;
+  margin: 0 auto;
+  width: 96%;
+}
+
+.info {
+  display: inline-block;
+  margin: 5px auto;
+  margin-left: 10px;
+  width: auto;
+  font-size: 10px;
+  background: #FFFFFF;
+  color: #444444;
+}
+
+h2 {
+  color: #DDDDDD;
+  text-align: center;
+}
+
+.white {
+  background: #FFFFFF;
+  color: #444444;
+  border: solid 1px #DDDDDD;
+  border-radius: 5px;
+}
+
+.blue {
+  background: #4477FF;
+  color: #EEEEEE;
+}
+
+.orange {
+  background: #FF8844;
+  color: #EEEEEE;
+}
+
+.green {
+  background: teal;
+  color: #EEEEEE;
+}
+
+.red {
+  background: #FF4444;
+  color: #EEEEEE;
+}
+
+.gray {
+  background: #AAAAAA;
+  color: #EEEEEE;
+}
+
+.purple {
+  background: purple;
+  color: #EEEEEE;
+}
